@@ -13,6 +13,7 @@ buttonCheck.onclick = function (){
         if(arraySplit[i] == arraySplit[arraySplit.length - 1 - i]){
             count++;
         }
+
         if(count == arraySplit.length){
             document.querySelector('.main__text').innerHTML = "<p>Текст является палиндромом</p>";
         } else{
